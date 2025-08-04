@@ -20,3 +20,23 @@ Tasks from BroSkiesHub on Python
 2. Clone this repository or download the `calculator.py` file.
 3. Open your terminal and navigate to the project directory.
 4. Run the command: `python calculator.py`
+
+# DAY 2
+# Task 2: Python Console To-Do List
+
+This repository contains the solution for the BH Python Developer Internship Task 2.
+
+## Objective
+The objective is to implement a simple, console-based to-do list manager using Python.
+
+## Features
+- **View Tasks:** Users can view all their current tasks.
+- **Add Tasks:** Users can add new tasks to their list.
+- **Remove Tasks:** Users can remove a task from the list.
+- **Persistence:** The application stores all tasks in a `tasks.txt` file, so the data is not lost when the program closes.
+
+## How to Run
+1.  Ensure you have Python installed.
+2.  Clone this repository or download the `todo.py` file.
+3.  Open your terminal and navigate to the project directory.
+4.  Run the command: `python todo.py`
