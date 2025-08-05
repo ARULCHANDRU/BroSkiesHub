@@ -40,3 +40,25 @@ The objective is to implement a simple, console-based to-do list manager using P
 2.  Clone this repository or download the `todo.py` file.
 3.  Open your terminal and navigate to the project directory.
 4.  Run the command: `python todo.py`
+
+# Day 3
+# Task 3: Web Scraper for News Headlines
+
+This repository contains the solution for the BH Python Developer Internship Task 3.
+
+## Objective
+[cite_start]The objective is to create a Python script that scrapes the top news headlines from a website and saves them to a text file.  [cite_start]This project uses the `requests` and `BeautifulSoup` libraries. 
+
+## How it Works
+- The script sends a GET request to the BBC News website.
+- [cite_start]It uses BeautifulSoup to parse the HTML content of the page. 
+- It finds all the `<h2>` tags, which typically contain the main headlines.
+- [cite_start]The extracted headlines are cleaned up and saved into a `headlines.txt` file. [cite:1]
+
+## Files
+- `scraper.py`: The Python script that performs the web scraping.
+- [cite_start]`headlines.txt`: The output file containing the scraped headlines. 
+
+## How to Run
+1.  Ensure you have Python, `requests`, and `beautifulsoup4` installed.
+2.  Run the script from your terminal: `python scraper.py`
