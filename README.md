@@ -62,3 +62,29 @@ This repository contains the solution for the BH Python Developer Internship Tas
 ## How to Run
 1.  Ensure you have Python, `requests`, and `beautifulsoup4` installed.
 2.  Run the script from your terminal: `python scraper.py`
+
+# Day 4
+# Task 4: REST API with Flask
+
+This repository contains a simple REST API built with Python and Flask for managing user data.
+
+## Objective
+The objective is to create a REST API that supports GET, POST, PUT, and DELETE operations for a collection of users stored in memory.
+
+## Endpoints
+The API provides the following endpoints:
+
+| Method | URL                | Description                 |
+|--------|--------------------|-----------------------------|
+| `GET`    | `/users`           | Get all users.              |
+| `GET`    | `/users/<id>`      | Get a single user by ID.    |
+| `POST`   | `/users`           | Create a new user.          |
+| `PUT`    | `/users/<id>`      | Update an existing user.    |
+| `DELETE` | `/users/<id>`      | Delete a user by ID.        |
+
+### `POST /users` Request Body Example
+```json
+{
+    "name": "Your Name",
+    "email": "your.email@example.com"
+}
