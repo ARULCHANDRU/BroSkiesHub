@@ -88,3 +88,21 @@ The API provides the following endpoints:
     "name": "Your Name",
     "email": "your.email@example.com"
 }
+```
+# Day 5
+# Task 5: Data Analysis with Pandas
+
+This repository contains the solution for the BH Python Developer Internship Task 5.
+
+## Objective
+The objective was to perform a basic analysis of a sales dataset using Python's Pandas and Matplotlib libraries.
+
+## Analysis Performed
+- The `sales_data.csv` file was loaded into a Pandas DataFrame.
+- A new column, `Total_Sales`, was calculated by multiplying the price and quantity of each transaction.
+- The data was grouped by product to calculate the total sales for each unique product.
+- A bar chart was created to visually represent the total sales per product.
+
+## Files
+- `Sales_Analysis_Notebook.ipynb`: The Jupyter/Colab notebook containing all the Python code, analysis steps, and the final chart.
+- `sales_data.csv`: The sample dataset used for the analysis.
