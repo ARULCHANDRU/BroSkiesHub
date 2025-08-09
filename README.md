@@ -106,3 +106,22 @@ The objective was to perform a basic analysis of a sales dataset using Python's 
 ## Files
 - `Sales_Analysis_Notebook.ipynb`: The Jupyter/Colab notebook containing all the Python code, analysis steps, and the final chart.
 - `sales_data.csv`: The sample dataset used for the analysis.
+
+# Day 6
+# Task 6: Personal Portfolio with Flask
+
+This repository contains a simple, one-page personal portfolio website built with Python and Flask.
+
+## Objective
+The objective is to create a personal portfolio site that showcases basic information, projects, and includes a functional contact form.
+
+## Technologies Used
+- **Backend:** Python, Flask
+- **Frontend:** HTML, CSS
+
+## Features
+- A single, responsive page layout.
+- Sections for "About Me," "Projects," and "Contact."
+- A contact form that sends data to the Flask backend.
+
+## Project Structure
