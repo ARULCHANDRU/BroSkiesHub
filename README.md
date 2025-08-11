@@ -125,3 +125,27 @@ The objective is to create a personal portfolio site that showcases basic inform
 - A contact form that sends data to the Flask backend.
 
 ## Project Structure
+
+# Day 7
+# Task 7: Professional Image Resizer Tool
+
+This project contains a powerful and user-friendly command-line tool for batch-resizing and converting images using Python and the Pillow library.
+
+## Key Features
+
+- **Interactive User Prompts:** The script interactively asks for input/output folders, dimensions, and conversion formats, making it easy to use without editing the code.
+- **Aspect Ratio Preservation:** Images are resized to fit within the specified dimensions while maintaining their original aspect ratio, preventing distortion.
+- **Batch Format Conversion:** Optionally convert all processed images to a new format (e.g., convert a folder of `.png` files to `.jpg`).
+- **Robust Error Handling:** The tool automatically creates the output directory, gracefully skips non-image files, and handles corrupted images without crashing.
+- **Clear Progress Reporting:** Provides real-time feedback on which files are being processed, skipped, or have caused an error, finishing with a final summary.
+
+## How to Run
+
+1.  Ensure you have Python and the `Pillow` library installed (`pip install Pillow`).
+2.  Place the images you want to resize into the `input_images` folder.
+3.  Run the script from your terminal:
+    ```sh
+    python resize_tool.py
+    ```
+4.  Follow the on-screen prompts to configure the resizing job.
+5.  The resized images will be saved in the `output_images` folder.
