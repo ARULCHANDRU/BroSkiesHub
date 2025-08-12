@@ -149,3 +149,30 @@ This project contains a powerful and user-friendly command-line tool for batch-r
     ```
 4.  Follow the on-screen prompts to configure the resizing job.
 5.  The resized images will be saved in the `output_images` folder.
+
+# Day 8
+# Task 8: Rule-Based Chatbot
+
+This project is a simple, yet well-structured, rule-based chatbot built in Python.
+
+## Objective
+The goal was to create a chatbot that can respond to a predefined set of user inputs using `if-elif-else` logic, demonstrating a basic understanding of control flow and input handling.
+
+## Features
+- **Modular Design:** The response logic is separated from the main conversation loop for better organization.
+- **Case-Insensitive:** The bot understands user input regardless of capitalization (e.g., 'hello' vs 'Hello').
+- **Keyword Spotting:** It recognizes user intent by searching for keywords within a sentence, not just exact matches.
+- **Dynamic Responses:** The bot can provide real-time information, like the current time.
+- **Clear Exit:** The conversation can be ended gracefully by typing 'bye', 'quit', or 'exit'.
+
+## Intents Handled
+- Greetings (`hello`, `hi`)
+- Asking how the bot is (`how are you`)
+- Asking for the time (`time`)
+- Asking for its identity (`your name`)
+- Asking for help (`help`, `task`)
+
+## How to Run
+1.  Ensure you have Python installed.
+2.  Run the script from your terminal: `python chatbot.py`
+3.  Start the conversation!
